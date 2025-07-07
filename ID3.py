@@ -7,6 +7,7 @@ def ID3(examples, default):
     attributes = set(examples[0].keys())
     attributes.remove('Class')
     return build_tree(examples, attributes, default)
+    #abcd
 
 # reduce error pruning
 def prune(node, examples):
